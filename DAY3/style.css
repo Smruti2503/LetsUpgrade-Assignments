@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerOne{
+    background: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.child{
+    width: 300px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerTwo{
+    background: green;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child2{
+    width: 300px;
+    height: 300px;
+    background: red;
+}
